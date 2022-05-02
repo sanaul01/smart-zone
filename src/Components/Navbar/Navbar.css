@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(209, 209, 225);
+    height: 3rem;
+}
+
+.n-link{
+    padding: 5px;
+}
+
+.n-link>*{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.n-link>*:hover{
+    color: rgb(98, 0, 255);
+}
