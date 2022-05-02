@@ -1,11 +1,14 @@
 import React from 'react';
 import Navbar from '../../Navbar/Navbar';
+import './Header.css';
 
 
 const Header = () => {
     return (
-        <div>
-            <h2>Will be added some images</h2>
+        <div className="header">
+            <div className="h-title">
+                <span>Smart</span>~<span>Zone</span>
+            </div>
             <Navbar/>
         </div>
     );

@@ -2,9 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0;
     padding: 10px;
-    background: rgb(209, 209, 225);
-    height: 3rem;
+    background: rgb(245, 245, 242);
+    height: 2rem;
+}
+
+.logo>img{
+    width:75px;
+    border-radius: 15px;
 }
 
 .n-link{
@@ -20,5 +26,11 @@
 }
 
 .n-link>*:hover{
-    color: rgb(98, 0, 255);
+    color: var(--orange);
+}
+
+.contuct{
+    height: 2rem;
+    border: 2px solid orange;
+    border-radius: 25px;
 }
